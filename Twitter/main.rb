@@ -1,4 +1,5 @@
 require './ToTweet.rb'
+require './GetTL.rb'
 require './inputText.rb'
 
 puts("Thank you for using RunOyoClient!!")
@@ -11,6 +12,8 @@ loop do
 
   if choiceMode == "1" then
     toTweet()
+  elsif choiceMode == "2" then
+    GetTL()
   elsif choiceMode == "q!" then
     puts("Also, use it.")
     break
