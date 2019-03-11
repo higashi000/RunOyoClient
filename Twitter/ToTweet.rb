@@ -12,8 +12,8 @@ def toTweet()
 
   case nextEnding
   when 2 then
-    @client.update("#{TweetEnding[nextEnding]}")
-    p "Tweeted `#{TweetEnding[nextEnding]}`"
+    @client.update("#{tweetText}\n#{TweetEnding[nextEnding]}")
+    p "Tweeted `#{tweetText}\n#{TweetEnding[nextEnding]}`"
   else
     @client.update("#{tweetText}#{TweetEnding[nextEnding]}")
     p "Tweeted `#{tweetText}#{TweetEnding[nextEnding]}`"
