@@ -3,7 +3,6 @@ require './inputText.rb'
 
 
 def GetTL
-  number = 1
   @client.home_timeline.reverse_each do |tweet|
     p number
     puts("")
@@ -13,6 +12,5 @@ def GetTL
     puts("")
     p tweet.text
     p "------------------------------"
-    number += 1
   end
 end
