@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ./OpenSiv3D/Linux/RunOyoClientGUI/
+cd ./projectConfig/
 cmake .
 make
-cd ../../../
+cd ../

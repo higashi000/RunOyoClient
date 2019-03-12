@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cd ./OpenSiv3D/Linux/RunOyoClientGUI
+cd ./projectConfig/
 ./RunOyoClient
-cd ../../../
+cd ../

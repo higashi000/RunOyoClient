@@ -1,1 +1,0 @@
-OpenSiv3D/Linux/RunOyoClientGUI/CMakeLists.txt
