@@ -2,6 +2,7 @@
 #define RUN_OY_CLIENT_INPUT_TEXT_HPP
 
 #include <Siv3D.hpp>
+#include <cstdlib>
 #include "Button.hpp"
 
 namespace RunOyoClient {

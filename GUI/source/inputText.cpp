@@ -16,7 +16,10 @@ namespace RunOyoClient {
     textBox.drawOverlay();
     button.draw();
     if (button.isClick()){
-      text = textBox.getText();
+      char str[255];
+      std::string tweetText = textBox.getText().narrow();
+      sprintf(str, "bash ../source/sendToTweet.sh 1 %s", tweetText.c_str());
+      system(str);
     }
   }
 
