@@ -30,7 +30,7 @@ link_directories(
 add_executable(RunOyoClient
 	"../source/Main.cpp"
 	"../source/Button.cpp"
-        "../source/inputText.cpp"
+        "../source/InputText.cpp"
         "../source/GetTweetText.cpp"
 )
 

@@ -3,7 +3,7 @@
 
 #include <Siv3D.hpp>
 #include <cstdlib>
-#include "inputText.hpp"
+#include "InputText.hpp"
 
 namespace RunOyoClient {
 class GetTweetText : public InputText {

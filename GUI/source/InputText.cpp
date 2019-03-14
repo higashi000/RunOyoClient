@@ -1,4 +1,4 @@
-#include "inputText.hpp"
+#include "InputText.hpp"
 
 namespace RunOyoClient {
 
