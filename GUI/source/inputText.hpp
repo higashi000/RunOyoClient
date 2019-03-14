@@ -1,5 +1,5 @@
-#ifndef RUN_OY_CLIENT_INPUT_TEXT_HPP
-#define RUN_OY_CLIENT_INPUT_TEXT_HPP
+#ifndef RUN_OYO_CLIENT_INPUT_TEXT_HPP_
+#define RUN_OYO_CLIENT_INPUT_TEXT_HPP_
 
 #include <Siv3D.hpp>
 #include <cstdlib>
@@ -7,7 +7,7 @@
 
 namespace RunOyoClient {
   class InputText {
-    private:
+    protected:
       RunOyoClient::Button button;
       TextBox textBox;
       Font font;

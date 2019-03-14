@@ -15,12 +15,6 @@ namespace RunOyoClient {
     textBox.draw();
     textBox.drawOverlay();
     button.draw();
-    if (button.isClick()){
-      char str[255];
-      std::string tweetText = textBox.getText().narrow();
-      sprintf(str, "bash ../source/sendToTweet.sh 1 %s", tweetText.c_str());
-      system(str);
-    }
   }
 
   void InputText::setPos(uint32 x, uint32 y) {
