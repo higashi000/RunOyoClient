@@ -23,6 +23,6 @@ git checkout -b linux origin/linux
 
 cd Linux
 
-cp -rf resouces ../../projectConfig
+cp -rf resources ../../projectConfig
 
 cd ../../
