@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd ./Twitter
-ruby ./main.rb
+cd GUI/projectConfig
+./RunOyoClient

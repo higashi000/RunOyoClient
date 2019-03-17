@@ -1,14 +1,14 @@
 #include <Siv3D.hpp>
 #include <HamFramework.hpp>
 #include "Button.hpp"
-#include "inputText.hpp"
+#include "GetTweetText.hpp"
 
 void Main() {
 
   Window::Resize(1280, 780);
   Graphics::SetBackground(Color(0, 169, 104));
 
-  auto textbox = RunOyoClient::InputText();
+  RunOyoClient::GetTweetText textbox;
   textbox.setPos(100, 100);
 
 
