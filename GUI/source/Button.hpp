@@ -1,5 +1,5 @@
-#ifndef RUN_OYO_CLIENT_HPP_
-#define RUN_OYO_CLIENT_HPP_
+#ifndef RUN_OYO_CLIENT_BUTTON_HPP_
+#define RUN_OYO_CLIENT_BUTTON_HPP_
 
 #include <Siv3D.hpp>
 
