@@ -7,6 +7,7 @@ def GetTL
       file.puts(tweet.user.name)
       file.puts(tweet.user.screen_name)
       file.puts(tweet.text)
+      file.puts("('・ω・')")
     end
   end
 end
