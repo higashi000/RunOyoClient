@@ -32,6 +32,8 @@ add_executable(RunOyoClient
 	"../source/Button.cpp"
         "../source/InputText.cpp"
         "../source/GetTweetText.cpp"
+        "../source/LoadTL.cpp"
+        "../source/TweetBox.cpp"
 )
 
 target_link_libraries(RunOyoClient
