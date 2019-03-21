@@ -2,3 +2,5 @@
 
 cd GUI/projectConfig
 ./RunOyoClient
+
+cd ../../
