@@ -12,10 +12,16 @@ void Main() {
   RunOyoClient::LoadTL tl;
 
   tl.setPos(10, 10);
-    tl.loadTLCSV();
+  RunOyoClient::Button button;
+  button.setPos(0, 0);
 
 
   while (System::Update()) {
+    button.draw();
+    if (button.isClick()) {
+      tl.getTL();
+      tl.loadTLCSV();
+    }
     tl.draw();
   }
 }
