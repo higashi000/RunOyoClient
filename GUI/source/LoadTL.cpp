@@ -57,5 +57,12 @@ namespace RunOyoClient {
     }
 
     setStr(tweet, ID, Name);
+    for (int j = 0; j < 25; ++j) {
+      tweet[j] = U"";
+    }
+  }
+
+  void LoadTL::getTL() {
+    system("bash ../source/getTL.sh");
   }
 }

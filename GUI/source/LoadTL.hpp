@@ -21,6 +21,7 @@ namespace RunOyoClient {
       void draw();
       void setStr(std::vector<String> tweet, std::vector<String> ID, std::vector<String> Name);
       void loadTLCSV();
+      void getTL();
   };
 }
 
