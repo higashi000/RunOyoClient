@@ -52,7 +52,7 @@ namespace RunOyoClient {
         ID[i] = s3d::Unicode::Widen(str);
         whichStr++;
       } else if (whichStr == 2) {
-        tweet[i] += s3d::Unicode::Widen(str);
+        tweet[i] += s3d::Unicode::Widen(str) + '\n';
       }
     }
 
